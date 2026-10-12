@@ -4,7 +4,7 @@ Each TODO is yours to write. Ask Claude Code or Meeple for help when stuck.
 import csv
 from datetime import date
 
-DATA_FILE = "data/entries.csv"
+DATA_FILE = "dataset/entries.csv"
 
 PANAS_POSITIVE = ["interested", "excited", "strong", "enthusiastic", "proud",
                   "alert", "inspired", "determined", "attentive", "active"]

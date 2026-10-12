@@ -1,20 +1,23 @@
-# AI Mood Journal: How Well Does AI Read Human Emotion?
+# AI Mood Journal: Evaluating AI Emotion Detection Against Self-Reported Mood
 
-## Research question
-How closely does AI sentiment/emotion scoring of daily journal entries match self-reported mood (PANAS)?
+## Research Question
+How closely does automated sentiment analysis (VADER) of daily journal entries align with self-reported affect measured by the Positive and Negative Affect Schedule (PANAS)?
 
-## Design
-Single-subject (N-of-1) study, ~40 days of daily entries.
+## Study Design
+- **Type:** Single-subject (N-of-1) longitudinal study
+- **Duration:** 40 days (Oct 12 – Nov 20, 2026)
+- **Measures:** Daily journal entry (3–5 sentences); PANAS positive and negative affect scores (10–50 each); VADER compound sentiment score (–1 to 1)
 
-## How to run
-1. `pip install -r requirements.txt`
-2. `python journal.py`
+## Repository Structure
+| Folder / File | Contents |
+|---|---|
+| `journal.py` | Daily data-entry application |
+| `dataset/` | Collected daily entries (`entries.csv`) |
+| `analysis/` | Analysis and visualization scripts |
+| `manuscript/` | Research paper (APA format) |
 
 ## Status
-- [ ] App built
-- [ ] Data collection (Day __ of 40)
-- [ ] Analysis
-- [ ] Paper
+Data collection in progress.
 
 ## Author
-TODO: your name
+Henry
